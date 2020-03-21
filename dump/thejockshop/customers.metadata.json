@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"thejockshop.customers"}],"uuid":"75826915726741f2a827f500350713ef"}
