@@ -50,12 +50,12 @@
         <p>Name</p>
          <input id="name" value="'.$_SESSION["loggedInName"].'">
          <p>Email</p>
-          <input id="email" value="'.$_SESSION["loggedInEmail"].'">
+          <input id="email" type="email" value="'.$_SESSION["loggedInEmail"].'">
           <p style="text-align:center;"> Note: Your username cannot be changed. </p>
          <button onclick="update()" class= "subbtn">Save</button>
 </form>
           <form action=logout.php>
-          <button class="subbtn">Logout </button>
+          <button class="subbtn" onclick = "login.php">Logout </button>
           </form>
           </div>
           </div>

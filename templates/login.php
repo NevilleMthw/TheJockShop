@@ -76,7 +76,7 @@
        <p>Name</p>
         <input type="text" name="name" value="'.$cust['name'].'"READONLY>
         <p>Email</p>
-		 <input type="text" name="email" value="'.$cust['email'].'"READONLY>
+		 <input type="email" name="email" value="'.$cust['email'].'"READONLY>
 		 <p style="text-align:center;"> Note: Your username cannot be changed. </p>
 		<button class="subbtn"> Update </button>
 		</form>
